@@ -1,0 +1,28 @@
+.boxmodel{
+    width:300px;
+    padding:10px;
+    margin:10px;
+    border:2px solid blue;
+    height:38px;
+    box-sizing:content-box;
+    background:#4682B4;
+  }
+  .boxmodel#roma{
+    display:inline;
+    padding:18px;
+    margin:10px;
+    border:2px solid #FF4500;
+    box-sizing:content-box;
+    background:#FFD700;
+  }
+ .boxmodel#artem{
+     display:inline-block;
+     padding:10px;
+     margin:10px;
+     border:2px solid green;
+     width:200px;
+     height:38px;
+     box-sizing:content-box;
+     background:rgb(73, 223, 73);
+ }
+  
