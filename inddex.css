@@ -1,0 +1,59 @@
+.first{
+    box-sizing: content-box;
+    width: 500px;
+    height: 250px;
+    left: 50px;
+    border-radius: 10px;
+    border: solid red;
+    position: relative;
+    text-align: center;
+    line-height: 1.6;
+
+}
+.text{
+    font-size: 25px;
+    
+}
+.mini{
+    font-size: 19px;
+
+}
+.second{
+    box-sizing: content-box;
+    width: 600px;
+    height: 250px;
+    border-radius: 20px;
+    border: solid blue;
+    text-align: center;
+    position: static;
+    line-height: 1.6;
+
+}
+.parent{
+    box-sizing: content-box;
+    width: 1000px;
+    height: 200px;
+    border: solid green;
+    position: relative;
+    line-height: 1.6;
+    
+}
+.textparent{
+    font-size: 25px;
+
+}
+.miniparent{
+    font-size: 20px;
+
+}
+ .child{
+width: 400px;
+height: 150px;
+border: solid red;
+position: absolute;
+line-height: 1.6;
+top: 10px;
+right: 10px;
+line-height: 1.6;
+
+}
